@@ -9,7 +9,7 @@ var isEvenOrOdd = function (num) {
   } else {
     console.log(`Given number is: ${num}`);
     console.log(`Number is Odd`);
-    console.log(`                              `);
+    console.log(`                             `);
   }
 };
 isEvenOrOdd(45);
