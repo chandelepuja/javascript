@@ -25,7 +25,7 @@ professor.totalExperience = "14 years";
 console.log(professor.degree);
 
 console.log(`=======STEP 4========`);
-console.log(professor);
+console.log(JSON.stringify(professor));
 professor.age = 50;
 console.log(`========STEP 5========`);
 console.log(professor);
