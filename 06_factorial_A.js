@@ -1,17 +1,16 @@
-function factorialOfNum(num){
-    console.log(`Given Number is ${num}`);
-    if (num == null || num == undefined) {
-        return `Invalid`;
-    }
-    if (num == 1 || num == 0) {
-        return 1;
-    }
-    let result = 1;
-    for (let index = 1; index <= num; index++) {
-        result = result * index;
-        }
-        return result
-
+function factorialOfNum(num) {
+  console.log(`Given Number is ${num}`);
+  if (num == null || num == undefined) {
+    return `Invalid`;
+  }
+  if (num == 1 || num == 0) {
+    return 1;
+  }
+  let result = 1;
+  for (let index = 1; index <= num; index++) {
+    result = result * index;
+  }
+  return result;
 }
 console.log(`Factorial of 5 => ${factorialOfNum(5)}`);
 console.log(``);
