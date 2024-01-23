@@ -1,6 +1,9 @@
 // Polymorphism: The ability to act in more than one form
+// Types of polymorphism are given below =
 // 1. Compile Time Polymorphism: Method Overloading
 // 2. Run time Polymorphism: Method Overriding
+
+// 1. Compile Time Polymorphism: Method Overloading example
 
 class Student {
     constructor(rollNo, name){
@@ -8,7 +11,7 @@ class Student {
         this.name = name;
     }
     marks(maths, physics){
-        // console.log(`maths: ${maths}, ${physics}`);
+        // console.log(`maths: ${maths}, physics: ${physics}`);
         console.log(arguments);
         console.log(typeof arguments);
         console.log(this);
