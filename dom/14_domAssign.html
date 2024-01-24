@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise time!</title>
+</head>
+<body>
+    <main>
+        <div id="overview">
+            <h1>HTML and JavaScript are crucial technologies</h1>
+            <p>The web would not work without them...</p>
+        </div>
+        <div id="advantages">
+            <ul>
+                <li>Flexible</li>
+                <li id="secondLi">Available</li>
+                <li>Magical</li>
+            </ul>
+        </div>
+    </main>
+    <script>
+        console.log(`===STEP 1 : store h1 using querySelector========`);
+        const mainHeading = document.querySelector("h1")
+        // console.log(mainHeading);
+        console.log(mainHeading.innerHTML);
+
+
+        console.log(`===STEP 2 : store second li using querySelector========`);
+        const secondAdvantages = document.querySelector("#secondLi")
+        // console.log(secondAdvantages);
+        console.log(secondAdvantages.innerHTML);
+
+
+        console.log(`===STEP 3 : store div with id "advantages" using querySelector========`);
+        const advDiv = document.querySelector("#advantages")
+        // console.log(advDiv);
+        console.log(advDiv.innerHTML);
+    </script>
+</body>
+</html>

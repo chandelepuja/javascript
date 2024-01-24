@@ -1,7 +1,7 @@
 console.log(`===STEP 1 : with no args and no return value===`);
 const day = () => {
     console.log(`Good Morning, Today is Thursday`);
-    console.log(``);
+    console.log(` `);
 }
 day();
 
