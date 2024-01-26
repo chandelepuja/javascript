@@ -52,9 +52,9 @@ promiseNotes.then(success => {
 
     console.log(`Thank you Master`);
 
-}).catch(failure => {
+}).catch(reject => {
 
-    console.log(`${failure}`);
+    console.log(`${reject}`);
 
     console.log(`Very Kadhus master.. `);
 

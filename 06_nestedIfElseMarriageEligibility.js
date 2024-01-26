@@ -5,7 +5,7 @@ var marriageEligibility = function (gender, age) {
     console.log(`$(age) ==> Invalid Input`);
   } else if ((gender == "Male" && age >= 21)) {
     console.log(`Gender = ${gender} and Age = ${age}`);
-    console.log(`Congratulation...You are eligible for marriage`);
+    console.log(`Congratulation....You are eligible for marriage`);
     console.log(`                                                   `);
   } else if ((gender == "Female" && age >= 18)) {
     console.log(`Gender = ${gender} and Age = ${age}`);

@@ -1,0 +1,55 @@
+.container{
+    width: 615px;
+    height: 350px;
+    border: 2px solid rgb(50, 22, 164);
+    border-radius: 10px;
+    margin: 50px auto;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,0.8883928571428571) 100%);
+}
+h1{
+    text-align: center;
+}
+.result{
+    margin-top: 30px;
+    margin-left: 210px;
+    font-size:x-large;
+    font-weight:bolder;
+    color: blue;
+
+
+}
+.inputFields{
+    margin-left: 50px;
+}
+label{
+    color: rgb(190, 70, 70);
+    font-size: larger;
+    font-weight: bolder;
+}
+.num{
+    border: 2px solid rgb(90, 197, 44);
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.clickButton{
+    margin-top: 50px;
+    margin-left: 20px;
+    border: 2px solid rgb(192, 27, 153);
+    border-radius:50px;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(104, 104, 212);
+    padding: 5px;
+}
+.clear{
+    margin-top: 30px;
+    margin-left: 260px;
+    border: 2px solid red;
+    border-radius: 2px;
+    font-size: large;
+    font-weight: bold;
+}
